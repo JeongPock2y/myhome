@@ -30,6 +30,6 @@ public class AccountController {
     public String register(User user) {
         userService.save(user);
         return "redirect:/";
-        //dd
+        //dd아릴랑ㄹ 아러ㅏ
     }
 }
